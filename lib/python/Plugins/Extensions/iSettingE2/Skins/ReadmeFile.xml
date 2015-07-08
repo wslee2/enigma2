@@ -1,0 +1,31 @@
+<screen name="ReadMeFile" position="0,0" size="1280,720" title="iSettingE2: Readme File" flags="wfNoBorder" backgroundColor="#ffffffff">
+  <ePixmap position="0,0" zPosition="-1" size="1321,827" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Buttons/fr_mainY.png" />
+  <ePixmap position="35,30" zPosition="1" size="1222,122" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Buttons/fr_bar.png" alphatest="blend" transparent="1" />
+  <ePixmap position="57,645" zPosition="1" size="780,36" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Buttons/colorbar.png" alphatest="blend" transparent="1" />
+  <widget source="Title" render="Label" zPosition="2" position="60,45" size="900,40" foregroundColor="#00ddebe8" backgroundColor="#00000000" halign="left" font="RegularIE2; 24" transparent="1" />
+  <ePixmap position="941,117" zPosition="4" size="29,470" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Buttons/maxbar.png" alphatest="blend" transparent="1" />
+  <ePixmap position="942,587" zPosition="4" size="29,40" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Buttons/endbar.png" alphatest="blend" transparent="1" />
+  <ePixmap position="862,645" zPosition="4" size="25,24" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Buttons/key_0.png" alphatest="blend" transparent="1" />  
+  <!-- Dete/Time -->
+  <widget source="global.CurrentTime" render="Label" position="810,76" size="310,30" font="RegularIE2;20" halign="left" foregroundColor="#00ddebe8" backgroundColor="#00000000" transparent="1" zPosition="2">
+    <convert type="ClockToText">Format:%A %d %B %Y</convert>
+  </widget>
+  <widget source="global.CurrentTime" render="Label" position="1090,76" size="125,30" font="RegularIE2;20" halign="right" foregroundColor="#00ddebe8" backgroundColor="#00000000" transparent="1" zPosition="2">
+    <convert type="ClockToText">Format:%H:%M:%S</convert>
+  </widget>
+  <!-- List -->
+  <widget name="list" position="67,119" size="900,480" foregroundColor="#00ddebe8" zPosition="1" scrollbarMode="showOnDemand" transparent="1" />
+  <!-- Description -->
+  <ePixmap position="50,610" size="750,30" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Buttons/closebox.png" zPosition="3" alphatest="blend" transparent="1" />
+  <!-- Keys -->
+  <widget name="key_file" position="370,47" zPosition="2" size="500,30" font="RegularIE2; 20" valign="center" halign="left" foregroundColor="#00ddebe8" backgroundColor="#00000000" transparent="1" />
+  <widget name="key_0" position="890,648" zPosition="2" size="350,20" font="RegularIE2; 20" valign="center" halign="left" foregroundColor="#00ddebe8" backgroundColor="#00000000" transparent="1" />  
+  <widget name="Key_Red" position="38,649" zPosition="1" size="190,25" font="RegularIE2;20" halign="center" foregroundColor="#00ddebe8" backgroundColor="#00000000" transparent="1" />
+  <widget name="Key_Green" position="236,649" zPosition="1" size="190,25" font="RegularIE2;20" halign="center" foregroundColor="#00ddebe8" backgroundColor="#00000000" transparent="1" />
+  <widget name="Key2_Green" position="236,682" zPosition="1" size="190,25" font="RegularIE2;20" halign="center" foregroundColor="#00ddebe8" backgroundColor="#00000000" transparent="1" />  
+  <widget name="Key_Yellow" position="435,649" zPosition="1" size="190,25" font="RegularIE2;20" halign="center" foregroundColor="#00ddebe8" backgroundColor="#00000000" transparent="1" />
+  <widget name="Key2_Yellow" position="435,682" zPosition="1" size="190,25" font="RegularIE2;20" halign="center" foregroundColor="#00ddebe8" backgroundColor="#00000000" transparent="1" />
+  <widget name="Key_Blu" position="634,649" zPosition="1" size="190,25" font="RegularIE2;20" halign="center" foregroundColor="#00ddebe8" backgroundColor="#00000000" transparent="1" />
+  <widget name="Key2_Blu" position="634,682" zPosition="1" size="190,25" font="RegularIE2;20" halign="center" foregroundColor="#00ddebe8" backgroundColor="#00000000" transparent="1" />
+  <widget name="Info_File" position="960,198" zPosition="2" size="270,300" font="RegularIE2; 20" valign="top" halign="center" foregroundColor="#00308bff" backgroundColor="#00000000" transparent="1" />
+</screen>  

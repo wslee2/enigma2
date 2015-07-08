@@ -1,0 +1,266 @@
+#
+#   *******************************
+#   *  Cool TV Guide by Coolman   *
+#   *  3D EPG-Plugin for Enigma2  *
+#   *  Coded by Coolman (c) 2012  *
+#   *******************************
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Cool TV Guide V6.0\n"
+"POT-Creation-Date: 2012-06-01 20:50+0100\n"
+"PO-Revision-Date: 2012-12-04 12:10+0100\n"
+"Last-Translator: Coolman <Coolman@uni.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Cyrilic\n"
+"X-Poedit-Country: RUSSIA\n"
+
+msgid "Cool 3D"
+msgstr "Cool 3D"
+
+msgid "Show Picon (Yes) (need restart)"
+msgstr "Загрузить пиконы (да) (необходимо перезапустить)"
+
+msgid "Show CoolPico (Yes) (need restart)"
+msgstr "Загрузить CoolPico (да) (необходимо перезапустить)"
+
+msgid "Picon Height (60), (54), (54)"
+msgstr "Высота пиконов (60), (54), (54)"
+
+msgid "Picon Item Height (60), (54), (54)"
+msgstr "Высота расположения пикона (60), (54), (54)"
+
+msgid "CoolPico Height (30), (27), (27)"
+msgstr "Высота CoolPico(30), (27), (27)"
+
+msgid "CoolPico Item Height (30), (27), (27)"
+msgstr "Высота расположения CoolPico(30), (27), (27)"
+
+msgid "Left Section Width (110), (75), (75)"
+msgstr "Отступ слева при ширине 60 (110), (75), (75)"
+
+msgid "Left Section Width (190), (110), (110)"
+msgstr "Отступ слева при ширине 30 (190), (110), (110)"
+
+msgid "Channel 1 at Start (No)"
+msgstr "Стартовать с канала №l 1 (нет)"
+
+msgid "Special Character (UTF-8) Fix (No)"
+msgstr "Специальные символы (UTF-8) Fix (Нет)"
+
+msgid "Short Service Name (No)"
+msgstr "Пропустить пустые строки (Нет) (перез. GUI)"
+
+msgid "Red Button (Zap)"
+msgstr "Красная (переключить)"
+
+msgid "LongRed Button (ZAP+Exit)"
+msgstr "Красная долгое (переключить и выйти)"
+
+msgid "Green Button (Timer)"
+msgstr "Зеленая (таймер)"
+
+msgid "LongGreen Button (Autotimer)"
+msgstr "Зеленая долгое (Autotimer)"
+
+msgid "Yellow Button (GuideSwitch)"
+msgstr "Желтая (Переключить Guide)"
+
+msgid "LongYellow Button (Bouquetlist)"
+msgstr "Желтая долгое (список букетов)"
+
+msgid "Blue Button (CoolSearch)"
+msgstr "Синяя (Поиск)"
+
+msgid "LongBlue Button (CoolInfoBox)"
+msgstr "Синяя долгое (поиск по IMDb)"
+
+msgid "OK Button (Cool Info Guide)"
+msgstr "ОК (Cool Info Guide)"
+
+msgid "LongOK Button"
+msgstr "Долгое ОК"
+
+msgid "Info Button (EPG Select)"
+msgstr "EPG (выбор EPG)"
+
+msgid "LongInfo Button"
+msgstr "EPG долгое"
+
+msgid "Event 60 Fontsize (18), (15), (15)"
+msgstr "Событие 60 Размер шрифта (18), (15), (15)"
+
+msgid "Event 30 Fontsize (18), (15), (15)"
+msgstr "Событие 30 Размер шрифта (18), (15), (15)"
+
+msgid "Left Fontsize (22), (18), (16) (need restart)"
+msgstr "Слева размер шрифта (22), (18), (16)"
+
+msgid "Timeline Fontsize (20), (18), (16) (need restart)"
+msgstr "Размер шрифта на временной шкале (20), (18), (16)"
+
+msgid "Right 60 Font Center (Yes)"
+msgstr "Правый 60 шрифт центрировать (Да)"
+
+msgid "Time Scale (180)"
+msgstr "Временная шкала (180)"
+
+msgid "Bouquet at Start (No)"
+msgstr "Стартовать с букетов (Nнет)"
+
+msgid "Skip Empty Services (No) (need restart)"
+msgstr "Пропускать пустой EPG (Нет) (Нужна перезагрузка)"
+
+msgid "Standard for (HD), (XD), (SD) Skin"
+msgstr "Стандарт (HD), (XD), (SD) Skin"
+
+msgid "Press ( < OK > ) to change your Buttons !!!"
+msgstr "нажмите  (<ОК>), чтобы изменить ваши кнопки!"
+
+msgid " No function with your Image"
+msgstr "Нет функции в имидже"
+
+msgid "   check Autotimer ?"
+msgstr "проверить автотаймер?"
+
+msgid "-- please check your Timer --"
+msgstr "- Пожалуйста, проверьте ваш Таймер -"
+
+msgid "has moved"
+msgstr "переехал"
+
+msgid "is disabled"
+msgstr "отключено"
+
+msgid "configuration of all Guides for your special wishes"
+msgstr "Конфигурация телегида для ваших спец пожеланий"
+
+msgid "Cool Easy Guide use Yellow/Blue for Time -/+"
+msgstr "Cool Easy Guide использовать Желтый / Синий Время - / +"
+
+msgid "Cool Easy Guide show Channel Number"
+msgstr "Показывать номер канала в Cool Easy Guide"
+
+msgid "Cool TimerAlarm check if Timer has changed"
+msgstr "Cool TimerAlarm проверка если таймер изменился"
+
+msgid "Cool TimerAlarm check if Timer is deaktivated"
+msgstr "Cool TimerAlarm проверка если таймер деактивирован"
+
+msgid "Start Cool TV Guide with Red Button"
+msgstr "Старт Cool TV телегид красная кнопка"
+
+msgid "Start Cool Single Guide with Green Button"
+msgstr "Старт Cool одиночный телегид зелёная кнопка"
+
+msgid "Start Cool Easy Guide with Yellow Button"
+msgstr "Старт Cool легкий телегид жёлтая кнопка"
+
+msgid "Start Cool Info Guide with Info/EPG Button"
+msgstr "Старт Cool инфо телегид Info/EPG кнопка"
+
+msgid "Start Cool Channel Guide with Down Button"
+msgstr "Старт Cool одной тв программы джойстик вниз"
+
+msgid "Cancel"
+msgstr "отмена"
+
+msgid "Save"
+msgstr "Сохранить"
+
+msgid "Search"
+msgstr "Поиск"
+
+msgid "Yes"
+msgstr "да"
+
+msgid "No"
+msgstr "нет"
+
+msgid "IMDb Search"
+msgstr "IMDb поиск"
+
+msgid "Channel Info"
+msgstr "Информация о канале"
+
+msgid "Add Timer"
+msgstr "Добавить таймер"
+
+msgid "delete this Timer ?"
+msgstr "Удалить таймер ?"
+
+msgid "edit this Timer ?"
+msgstr "Редактировать этот таймер ?"
+
+msgid "Bouquetlist"
+msgstr "Список букетов"
+
+msgid "Sort A-Z"
+msgstr "сортировать А-Я"
+
+msgid "Sort Time"
+msgstr "Сортировать по времени"
+
+msgid "New Search"
+msgstr "Новый поиск"
+
+msgid "Last Search"
+msgstr "Последний поиск"
+
+msgid "Search for:"
+msgstr "Искать:"
+
+msgid "No history"
+msgstr "нет истории"
+
+msgid "Delete Timer"
+msgstr "Удалить таймер"
+
+msgid "Today"
+msgstr "сегодня"
+
+msgid "Mon"
+msgstr "понедельник"
+
+msgid "Tue"
+msgstr "вторник"
+
+msgid "Wed"
+msgstr "среда"
+
+msgid "Thu"
+msgstr "четверг"
+
+msgid "Fri"
+msgstr "пятница"
+
+msgid "Sat"
+msgstr "субота"
+
+msgid "Sun"
+msgstr "воскресенье"
+
+#
+#msgid "About (Press Menu)"
+#msgstr "О программе (нажмите Menu)"
+
+#msgid "Cool Picon Path"
+#msgstr "Cool Picon-путь"
+
+#msgid "Cool PrimeTime (20:15)"
+#msgstr "Cool Эфирное время (20:15)"
+
+#msgid "Picon Path (Press Menu)"
+#msgstr "Путь к пиконам (нажмите Menu)"
+
+#msgid "Start with Standard Height 60 (Yes)"
+#msgstr "Стартовать со стандартной высоты 60 (Да)"
+
+#msgid "Your Picon Path:"
+#msgstr "Ваш путь к пиконам:"
+

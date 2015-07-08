@@ -1,0 +1,614 @@
+Binary file ./.git/index matches
+./lib/python/Components/ParentalControl.py:28:	config.ParentalControl.configured = ConfigYesNo(default = True)		# [iq]
+./lib/python/Components/ParentalControl.py:88:		if not config.ParentalControl.configured.value or not config.ParentalControl.servicepinactive.value:
+./lib/python/Components/NimManager.py:31:	def getConfiguredSats(self):
+./lib/python/Components/NimManager.py:32:		return self.configuredSatellites
+./lib/python/Components/NimManager.py:36:		self.configuredSatellites.add(orbpos)
+./lib/python/Components/NimManager.py:129:		self.configuredSatellites = set()
+./lib/python/Components/NimManager.py:482:		self.configuredSatellites = set()
+./lib/python/Components/NimManager.py:626:	def getConfiguredSats(self):
+./lib/python/Components/NimManager.py:627:		return self.sec.getConfiguredSats()
+./lib/python/Components/NimManager.py:924:	# returns True if something is configured to be connected to this nim
+./lib/python/Components/DreamInfoHandler.py:281:				if int(sat) not in nimmanager.getConfiguredSats():
+./lib/python/Components/PackageInfo.py:261:				if int(sat) not in nimmanager.getConfiguredSats():
+./lib/python/Components/Network.py:13:		self.configuredInterfaces = []
+./lib/python/Components/Network.py:14:		self.configuredNetworkAdapters = []
+./lib/python/Components/Network.py:50:		self.configuredInterfaces = []
+./lib/python/Components/Network.py:97:						self.configuredInterfaces.append(iface)
+./lib/python/Components/Network.py:138:		self.configuredInterfaces = []
+./lib/python/Components/Network.py:146:				self.configuredInterfaces.append(ifacename)
+./lib/python/Components/Network.py:165:		self.configuredNetworkAdapters = self.configuredInterfaces
+./lib/python/Components/Network.py:223:				# save configured interfacelist
+./lib/python/Components/Network.py:224:				self.configuredNetworkAdapters = self.configuredInterfaces
+./lib/python/Components/Network.py:227:				print "read configured interface:", ifaces
+./lib/python/Components/Network.py:259:	def getConfiguredAdapters(self):
+./lib/python/Components/Network.py:260:		return self.configuredNetworkAdapters
+./lib/python/Components/Network.py:566:				if result == "ifdown: interface " + iface + " not configured":
+./lib/python/Components/UsageConfig.py:427:	config.fan_config.configured = ConfigYesNo(default = False)
+./lib/python/Components/InputDevice.py:46:				self.Devices[evdev] = {'name': self.name, 'type': self.getInputDeviceType(self.name),'enabled': False, 'configuredName': None }
+./lib/python/Components/InputDevice.py:89:		self.setDeviceAttribute(device, 'configuredName', value)
+./lib/python/Components/InputDevice.py:100:		self.setDeviceAttribute(device, 'configuredName', None)
+./lib/python/Plugins/SystemPlugins/NetworkWizard/NetworkWizard.py:190:				if iface in iNetwork.configuredNetworkAdapters and len(iNetwork.configuredNetworkAdapters) == 1:
+./lib/python/Plugins/SystemPlugins/Videomode/VideoHardware.py:304:	def setConfiguredMode(self):
+./lib/python/Plugins/SystemPlugins/Videomode/VideoHardware.py:388:video_hw.setConfiguredMode()
+./lib/python/Plugins/SystemPlugins/Videomode/VideoWizard.py:191:			self.hw.setConfiguredMode()
+./lib/python/Plugins/SystemPlugins/OSD3DSetup/plugin.py:78:		setConfiguredSettings()
+./lib/python/Plugins/SystemPlugins/OSD3DSetup/plugin.py:109:def setConfiguredSettings():
+./lib/python/Plugins/SystemPlugins/OSD3DSetup/plugin.py:116:	setConfiguredSettings()
+./lib/python/Plugins/SystemPlugins/VideoClippingSetup/plugin.py:90:		setConfiguredPosition()
+./lib/python/Plugins/SystemPlugins/VideoClippingSetup/plugin.py:114:def setConfiguredPosition():
+./lib/python/Plugins/SystemPlugins/VideoClippingSetup/plugin.py:121:	setConfiguredPosition()
+./lib/python/Plugins/SystemPlugins/VideoEnhancement/VideoEnhancement.py:27:					self.setConfiguredValues()
+./lib/python/Plugins/SystemPlugins/VideoEnhancement/VideoEnhancement.py:44:					self.setConfiguredValues()
+./lib/python/Plugins/SystemPlugins/VideoEnhancement/VideoEnhancement.py:61:					self.setConfiguredValues()
+./lib/python/Plugins/SystemPlugins/VideoEnhancement/VideoEnhancement.py:78:					self.setConfiguredValues()
+./lib/python/Plugins/SystemPlugins/VideoEnhancement/VideoEnhancement.py:95:					self.setConfiguredValues()
+./lib/python/Plugins/SystemPlugins/VideoEnhancement/VideoEnhancement.py:112:					self.setConfiguredValues()
+./lib/python/Plugins/SystemPlugins/VideoEnhancement/VideoEnhancement.py:129:					self.setConfiguredValues()
+./lib/python/Plugins/SystemPlugins/VideoEnhancement/VideoEnhancement.py:145:					self.setConfiguredValues()
+./lib/python/Plugins/SystemPlugins/VideoEnhancement/VideoEnhancement.py:166:					self.setConfiguredValues()
+./lib/python/Plugins/SystemPlugins/VideoEnhancement/VideoEnhancement.py:183:					self.setConfiguredValues()
+./lib/python/Plugins/SystemPlugins/VideoEnhancement/VideoEnhancement.py:200:					self.setConfiguredValues()
+./lib/python/Plugins/SystemPlugins/VideoEnhancement/VideoEnhancement.py:217:					self.setConfiguredValues()
+./lib/python/Plugins/SystemPlugins/VideoEnhancement/VideoEnhancement.py:234:					self.setConfiguredValues()
+./lib/python/Plugins/SystemPlugins/VideoEnhancement/VideoEnhancement.py:254:						self.setConfiguredValues()
+./lib/python/Plugins/SystemPlugins/VideoEnhancement/VideoEnhancement.py:262:			self.setConfiguredValues()
+./lib/python/Plugins/SystemPlugins/VideoEnhancement/VideoEnhancement.py:266:	def setConfiguredValues(self):
+./lib/python/Plugins/SystemPlugins/PositionerSetup/plugin.py:1328:				configured_rotor_sats = nimmanager.getRotorSatListForNim(x)
+./lib/python/Plugins/SystemPlugins/PositionerSetup/plugin.py:1329:				if len(configured_rotor_sats) != 0:
+./lib/python/Plugins/SystemPlugins/PositionerSetup/plugin.py:1336:				session.open(MessageBox, _("No tuner is configured for use with a diseqc positioner!"), MessageBox.TYPE_ERROR)
+./lib/python/Plugins/SystemPlugins/OSDPositionSetup/plugin.py:80:		setConfiguredPosition()
+./lib/python/Plugins/SystemPlugins/OSDPositionSetup/plugin.py:104:def setConfiguredPosition():
+./lib/python/Plugins/SystemPlugins/OSDPositionSetup/plugin.py:111:	setConfiguredPosition()
+./lib/python/Screens/AutoCardReg.py:255:		self.configuredInterfaces = []
+./lib/python/Screens/InputDeviceSetup.py:90:					devicepng = LoadPixmap(resolveFilename(SCOPE_CURRENT_SKIN, "skin_default/icons/input_rcnew-configured.png"))
+./lib/python/Screens/InputDeviceSetup.py:95:					devicepng = LoadPixmap(resolveFilename(SCOPE_CURRENT_SKIN, "skin_default/icons/input_rcold-configured.png"))
+./lib/python/Screens/InputDeviceSetup.py:100:				devicepng = LoadPixmap(resolveFilename(SCOPE_CURRENT_SKIN, "skin_default/icons/input_keyboard-configured.png"))
+./lib/python/Screens/InputDeviceSetup.py:105:				devicepng = LoadPixmap(resolveFilename(SCOPE_CURRENT_SKIN, "skin_default/icons/input_mouse-configured.png"))
+./lib/python/Screens/MovieSelection.py:1099:		self.session.openWithCallback(self.configureDone, MovieBrowserConfiguration)
+./lib/python/Screens/MovieSelection.py:1101:	def configureDone(self, result):
+./lib/python/Screens/ParentalControlSetup.py:74:		return config.ParentalControl.setuppinactive.value and config.ParentalControl.configured.value
+./lib/python/Screens/ParentalControlSetup.py:82:		self.list.append(getConfigListEntry(_("Enable parental control"), config.ParentalControl.configured))
+./lib/python/Screens/ParentalControlSetup.py:83:		print "config.ParentalControl.configured.value", config.ParentalControl.configured.value
+./lib/python/Screens/ParentalControlSetup.py:86:		if config.ParentalControl.configured.value:
+./lib/python/Screens/ScanSetup.py:288:		print "configuredSats:", nimmanager.getConfiguredSats()
+./lib/python/Screens/ChannelSelection.py:135:					if config.ParentalControl.configured.value:
+./lib/python/Screens/ChannelSelection.py:155:						if not config.ParentalControl.configured.value or parentalControl.getProtectionLevel(csel.getCurrentSelection().toCompareString()) == -1:
+./lib/python/Screens/NetworkSetup.py:32:		self.wlan_errortext = _("No working wireless network adapter found.\nPlease verify that you have attached a compatible WLAN device and your network is configured correctly.")
+./lib/python/Screens/NetworkSetup.py:33:		self.lan_errortext = _("No working local network adapter found.\nPlease verify that you have attached a network cable and your network is configured correctly.")
+./lib/python/Screens/NetworkSetup.py:66:			self.adapters = [(iNetwork.getFriendlyAdapterName(x),x) for x in iNetwork.getConfiguredAdapters()]
+./lib/python/Screens/NetworkSetup.py:101:		num_configured_if = len(iNetwork.getConfiguredAdapters())
+./lib/python/Screens/NetworkSetup.py:102:		if num_configured_if >= 2:
+./lib/python/Screens/NetworkSetup.py:119:		num_configured_if = len(iNetwork.getConfiguredAdapters())
+./lib/python/Screens/NetworkSetup.py:120:		if num_configured_if >= 2:
+./lib/python/Screens/NetworkSetup.py:129:		if num_configured_if < 2 and os_path.exists("/etc/default_gw"):
+./lib/python/Screens/NetworkSetup.py:157:		num_configured_if = len(iNetwork.getConfiguredAdapters())
+./lib/python/Screens/NetworkSetup.py:162:		if num_configured_if > 1 and (not old_default_gw or old_default_gw != selection[0]):
+./lib/python/Screens/NetworkSetup.py:167:		elif old_default_gw and num_configured_if < 2:
+./lib/python/Screens/NetworkSetup.py:522:			num_configured_if = len(iNetwork.getConfiguredAdapters())
+./lib/python/Screens/NetworkSetup.py:523:			if num_configured_if >= 1:
+./lib/python/Screens/NetworkSetup.py:524:				if self.iface in iNetwork.getConfiguredAdapters():	
+./lib/python/Screens/NetworkSetup.py:527:					self.session.openWithCallback(self.secondIfaceFoundCB, MessageBox, _("A second configured interface has been found.\n\nDo you want to disable the second network interface?"), default = True)
+./lib/python/Screens/NetworkSetup.py:537:			configuredInterfaces = iNetwork.getConfiguredAdapters()
+./lib/python/Screens/NetworkSetup.py:538:			for interface in configuredInterfaces:
+./lib/python/Screens/NetworkSetup.py:542:			iNetwork.deactivateInterface(configuredInterfaces,self.deactivateSecondInterfaceCB)
+./lib/python/Screens/NetworkSetup.py:1210:			self["InfoText"].setText(_("This test detects your configured LAN adapter."))
+./lib/python/Screens/NetworkSetup.py:1220:			self["InfoText"].setText(_("This test checks whether your LAN adapter is set up for automatic IP address configuration with DHCP.\nIf you get a \"disabled\" message:\n - then your LAN adapter is configured for manual IP setup\n- verify thay you have entered correct IP informations in the adapter setup dialog.\nIf you get an \"enabeld\" message:\n-verify that you have a configured and working DHCP server in your network."))
+./lib/python/Screens/NetworkSetup.py:1230:			self["InfoText"].setText(_("This test checks for configured nameservers.\nIf you get a \"unconfirmed\" message:\n- please check your DHCP, cabling and adapter setup\n- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"))
+./lib/python/Screens/Satconfig.py:66:			choices = {"nothing": _("not configured"),
+./lib/python/Screens/Satconfig.py:396:		old_configured_sats = nimmanager.getConfiguredSats()
+./lib/python/Screens/Satconfig.py:399:		new_configured_sats = nimmanager.getConfiguredSats()
+./lib/python/Screens/Satconfig.py:400:		self.unconfed_sats = old_configured_sats - new_configured_sats
+./lib/python/Screens/Satconfig.py:542:						text = _("not configured")
+./lib/python/Screens/FactoryReset.py:119:		return config.ParentalControl.setuppinactive.value and config.ParentalControl.configured.value
+./lib/dvb/frontend.h:66:		SATPOS_DEPENDS_PTR,   // pointer to FE with configured rotor (with twin/quattro lnb)
+./lib/service/servicemp3.cpp:421:			 * regardless whether or not we configured a progressive download file, use a buffer as well
+./lib/service/servicemp3.cpp:1704:				 * we don't react to buffer level messages, unless we are configured to use a prefill buffer
+./lib/service/servicemp3.cpp:1705:				 * (even if we are not configured to, we still use the buffer, but we rely on it to remain at the
+./TAGS:829:	def getConfiguredAdapters(259,9155
+./TAGS:2104:	def getConfiguredSats(31,956
+./TAGS:2135:	def getConfiguredSats(626,23271
+./TAGS:3582:def setConfiguredSettings(109,3576
+./TAGS:3596:def setConfiguredPosition(104,4166
+./TAGS:3990:def setConfiguredPosition(114,4782
+./TAGS:4013:	def setConfiguredValues(266,9056
+./TAGS:4119:	def setConfiguredMode(304,9126
+./TAGS:5635:	def configureDone(1101,38175
+./doc/RULES:54:something is seriously broken (i.e. buggy, not misconfigured)!
+./doc/DEFAULTS:86:So this would only install the lamedb.192 file, if you have a DVB-S NIM in your box AND some of the tuners is configured to 19.2.
+./data/startwizard.xml:123:	config.ParentalControl.configured.value = True
+./data/startwizard.xml:125:	config.ParentalControl.configured.value = False
+./data/startwizard.xml:126:config.ParentalControl.configured.save()
+./data/skin_default/icons/Makefile.am:34:	input_keyboard-configured.png \
+./data/skin_default/icons/Makefile.am:36:	input_mouse-configured.png \
+./data/skin_default/icons/Makefile.am:39:	input_rcnew-configured.png \
+./data/skin_default/icons/Makefile.am:41:	input_rcold-configured.png \
+./data/setup.xml:125:		<item level="2" text="Offline decode delay (ms)" description="Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change.">config.recording.offline_decode_delay</item>
+./data/setup.xml:136:		<item text="Activate network settings" description="Activate the configured network settings.">config.network.activate</item>
+./po/pl.po:505:"A second configured interface has been found.\n"
+./po/pl.po:598:msgid "Activate the configured network settings."
+./po/pl.po:1520:msgid "Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change."
+./po/pl.po:3896:msgid "No tuner is configured for use with a diseqc positioner!"
+./po/pl.po:3940:"Please verify that you have attached a network cable and your network is configured correctly."
+./po/pl.po:3948:"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+./po/pl.po:6510:"This test checks for configured nameservers.\n"
+./po/pl.po:6513:"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+./po/pl.po:6548:" - then your LAN adapter is configured for manual IP setup\n"
+./po/pl.po:6551:"-verify that you have a configured and working DHCP server in your network."
+./po/pl.po:6561:msgid "This test detects your configured LAN adapter."
+./po/pl.po:8462:msgid "not configured"
+./po/th.po:421:"A second configured interface has been found.\n"
+./po/th.po:495:msgid "Activate the configured network settings."
+./po/th.po:1294:msgid "Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change."
+./po/th.po:3328:msgid "No tuner is configured for use with a diseqc positioner!"
+./po/th.po:3368:"Please verify that you have attached a network cable and your network is configured correctly."
+./po/th.po:3375:"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+./po/th.po:5540:"This test checks for configured nameservers.\n"
+./po/th.po:5543:"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+./po/th.po:5578:" - then your LAN adapter is configured for manual IP setup\n"
+./po/th.po:5581:"-verify that you have a configured and working DHCP server in your network."
+./po/th.po:5591:msgid "This test detects your configured LAN adapter."
+./po/th.po:7191:msgid "not configured"
+./po/th.po:7725:#~ "Delete no more configured satellite\n"
+./po/th.po:8029:#~ "The input port should be configured now.\n"
+./po/hu.po:436:"A second configured interface has been found.\n"
+./po/hu.po:513:msgid "Activate the configured network settings."
+./po/hu.po:1263:msgid "Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change."
+./po/hu.po:3186:msgid "No tuner is configured for use with a diseqc positioner!"
+./po/hu.po:3225:"Please verify that you have attached a network cable and your network is configured correctly."
+./po/hu.po:3232:"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+./po/hu.po:5287:"This test checks for configured nameservers.\n"
+./po/hu.po:5290:"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+./po/hu.po:5322:" - then your LAN adapter is configured for manual IP setup\n"
+./po/hu.po:5325:"-verify that you have a configured and working DHCP server in your network."
+./po/hu.po:5334:msgid "This test detects your configured LAN adapter."
+./po/hu.po:6924:msgid "not configured"
+./po/hu.po:7499:#~ "Delete no more configured satellite\n"
+./po/hu.po:7875:#~ "The input port should be configured now.\n"
+./po/en.po:435:"A second configured interface has been found.\n"
+./po/en.po:439:"A second configured interface has been found.\n"
+./po/en.po:512:msgid "Activate the configured network settings."
+./po/en.po:513:msgstr "Activate the configured network settings."
+./po/en.po:1264:msgid "Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change."
+./po/en.po:1265:msgstr "Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change."
+./po/en.po:3187:msgid "No tuner is configured for use with a diseqc positioner!"
+./po/en.po:3188:msgstr "No tuner is configured for use with a diseqc positioner!"
+./po/en.po:3226:"Please verify that you have attached a network cable and your network is configured correctly."
+./po/en.po:3229:"Please verify that you have attached a network cable and your network is configured correctly."
+./po/en.po:3233:"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+./po/en.po:3236:"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+./po/en.po:5288:"This test checks for configured nameservers.\n"
+./po/en.po:5291:"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+./po/en.po:5293:"This test checks for configured nameservers.\n"
+./po/en.po:5296:"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+./po/en.po:5323:" - then your LAN adapter is configured for manual IP setup\n"
+./po/en.po:5326:"-verify that you have a configured and working DHCP server in your network."
+./po/en.po:5330:" - then your LAN adapter is configured for manual IP setup\n"
+./po/en.po:5333:"-verify that you have a configured and working DHCP server in your network."
+./po/en.po:5335:msgid "This test detects your configured LAN adapter."
+./po/en.po:5336:msgstr "This test detects your configured LAN adapter."
+./po/en.po:6928:msgid "not configured"
+./po/en.po:6929:msgstr "not configured"
+./po/sv.po:489:"A second configured interface has been found.\n"
+./po/sv.po:581:msgid "Activate the configured network settings."
+./po/sv.po:1477:msgid "Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change."
+./po/sv.po:3774:msgid "No tuner is configured for use with a diseqc positioner!"
+./po/sv.po:3817:"Please verify that you have attached a network cable and your network is configured correctly."
+./po/sv.po:3825:"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+./po/sv.po:6300:"This test checks for configured nameservers.\n"
+./po/sv.po:6303:"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+./po/sv.po:6337:" - then your LAN adapter is configured for manual IP setup\n"
+./po/sv.po:6340:"-verify that you have a configured and working DHCP server in your network."
+./po/sv.po:6350:msgid "This test detects your configured LAN adapter."
+./po/sv.po:8222:msgid "not configured"
+./po/it.po:499:"A second configured interface has been found.\n"
+./po/it.po:590:msgid "Activate the configured network settings."
+./po/it.po:1487:msgid "Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change."
+./po/it.po:3792:msgid "No tuner is configured for use with a diseqc positioner!"
+./po/it.po:3834:"Please verify that you have attached a network cable and your network is configured correctly."
+./po/it.po:3842:"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+./po/it.po:6305:"This test checks for configured nameservers.\n"
+./po/it.po:6308:"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+./po/it.po:6340:" - then your LAN adapter is configured for manual IP setup\n"
+./po/it.po:6343:"-verify that you have a configured and working DHCP server in your network."
+./po/it.po:6353:msgid "This test detects your configured LAN adapter."
+./po/it.po:8219:msgid "not configured"
+./po/fr.po:440:"A second configured interface has been found.\n"
+./po/fr.po:517:msgid "Activate the configured network settings."
+./po/fr.po:1269:msgid "Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change."
+./po/fr.po:3188:msgid "No tuner is configured for use with a diseqc positioner!"
+./po/fr.po:3227:"Please verify that you have attached a network cable and your network is configured correctly."
+./po/fr.po:3232:"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+./po/fr.po:5291:"This test checks for configured nameservers.\n"
+./po/fr.po:5294:"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+./po/fr.po:5326:" - then your LAN adapter is configured for manual IP setup\n"
+./po/fr.po:5329:"-verify that you have a configured and working DHCP server in your network."
+./po/fr.po:5338:msgid "This test detects your configured LAN adapter."
+./po/fr.po:6930:msgid "not configured"
+./po/fr.po:7484:#~ "Delete no more configured satellite\n"
+./po/fr.po:7835:#~ "The input port should be configured now.\n"
+./po/el.po:539:"A second configured interface has been found.\n"
+./po/el.po:649:msgid "Activate the configured network settings."
+./po/el.po:1790:msgid "Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change."
+./po/el.po:4727:msgid "No tuner is configured for use with a diseqc positioner!"
+./po/el.po:4778:"Please verify that you have attached a network cable and your network is configured correctly."
+./po/el.po:4787:"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+./po/el.po:7964:"This test checks for configured nameservers.\n"
+./po/el.po:7967:"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+./po/el.po:7969:"This test checks for configured Nameservers.\n"
+./po/el.po:7972:"- if you configured your Nameservers manually please verify your entries in the \"Nameserver\" Configuration"
+./po/el.po:8008:" - then your LAN adapter is configured for manual IP setup\n"
+./po/el.po:8011:"-verify that you have a configured and working DHCP server in your network."
+./po/el.po:8015:" - then your LAN Adapter is configured for manual IP Setup\n"
+./po/el.po:8018:"-verify that you have a configured and working DHCP Server in your network."
+./po/el.po:8023:msgid "This test detects your configured LAN adapter."
+./po/el.po:10240:msgid "not configured"
+./po/el.po:11027:#~ "Delete no more configured satellite\n"
+./po/el.po:11546:#~ "The input port should be configured now.\n"
+./po/ro.po:419:"A second configured interface has been found.\n"
+./po/ro.po:493:msgid "Activate the configured network settings."
+./po/ro.po:1286:msgid "Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change."
+./po/ro.po:3310:msgid "No tuner is configured for use with a diseqc positioner!"
+./po/ro.po:3350:"Please verify that you have attached a network cable and your network is configured correctly."
+./po/ro.po:3357:"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+./po/ro.po:5508:"This test checks for configured nameservers.\n"
+./po/ro.po:5511:"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+./po/ro.po:5546:" - then your LAN adapter is configured for manual IP setup\n"
+./po/ro.po:5549:"-verify that you have a configured and working DHCP server in your network."
+./po/ro.po:5557:msgid "This test detects your configured LAN adapter."
+./po/ro.po:7150:msgid "not configured"
+./po/ro.po:7614:#~ "Delete no more configured satellite\n"
+./po/ro.po:7823:#~ "The input port should be configured now.\n"
+./po/he.po:450:"A second configured interface has been found.\n"
+./po/he.po:542:msgid "Activate the configured network settings."
+./po/he.po:1402:msgid "Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change."
+./po/he.po:3592:msgid "No tuner is configured for use with a diseqc positioner!"
+./po/he.po:3629:"Please verify that you have attached a network cable and your network is configured correctly."
+./po/he.po:3632:"Please verify that you have attached a network cable and your network is configured correctly."
+./po/he.po:3636:"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+./po/he.po:3639:"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+./po/he.po:5993:"This test checks for configured nameservers.\n"
+./po/he.po:5996:"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+./po/he.po:5998:"This test checks for configured Nameservers.\n"
+./po/he.po:6001:"- if you configured your Nameservers manually please verify your entries in the \"Nameserver\" Configuration"
+./po/he.po:6030:" - then your LAN adapter is configured for manual IP setup\n"
+./po/he.po:6033:"-verify that you have a configured and working DHCP server in your network."
+./po/he.po:6037:msgid "This test detects your configured LAN adapter."
+./po/he.po:6038:msgstr "This test detects your configured LAN-Adapter."
+./po/he.po:7763:msgid "not configured"
+./po/he.po:7764:msgstr "not configured"
+./po/he.po:8316:#~ "Delete no more configured satellite\n"
+./po/he.po:8319:#~ "Delete no more configured satellite\n"
+./po/he.po:8558:#~ "The input port should be configured now.\n"
+./po/he.po:8561:#~ "The input port should be configured now.\n"
+./po/pt.po:466:"A second configured interface has been found.\n"
+./po/pt.po:559:msgid "Activate the configured network settings."
+./po/pt.po:1505:msgid "Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change."
+./po/pt.po:3935:msgid "No tuner is configured for use with a diseqc positioner!"
+./po/pt.po:3980:"Please verify that you have attached a network cable and your network is configured correctly."
+./po/pt.po:3988:"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+./po/pt.po:6622:"This test checks for configured nameservers.\n"
+./po/pt.po:6625:"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+./po/pt.po:6663:" - then your LAN adapter is configured for manual IP setup\n"
+./po/pt.po:6666:"-verify that you have a configured and working DHCP server in your network."
+./po/pt.po:6677:msgid "This test detects your configured LAN adapter."
+./po/pt.po:8589:msgid "not configured"
+./po/pt.po:9257:#~ "Delete no more configured satellite\n"
+./po/pt.po:9652:#~ "The input port should be configured now.\n"
+./po/ru.po:441:"A second configured interface has been found.\n"
+./po/ru.po:518:msgid "Activate the configured network settings."
+./po/ru.po:1271:msgid "Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change."
+./po/ru.po:3202:msgid "No tuner is configured for use with a diseqc positioner!"
+./po/ru.po:3243:"Please verify that you have attached a network cable and your network is configured correctly."
+./po/ru.po:3250:"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+./po/ru.po:5315:"This test checks for configured nameservers.\n"
+./po/ru.po:5318:"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+./po/ru.po:5350:" - then your LAN adapter is configured for manual IP setup\n"
+./po/ru.po:5353:"-verify that you have a configured and working DHCP server in your network."
+./po/ru.po:5362:msgid "This test detects your configured LAN adapter."
+./po/ru.po:6957:msgid "not configured"
+./po/ru.po:7453:#~ "Delete no more configured satellite\n"
+./po/ru.po:7671:#~ "The input port should be configured now.\n"
+./po/is.po:475:"A second configured interface has been found.\n"
+./po/is.po:565:msgid "Activate the configured network settings."
+./po/is.po:1395:msgid "Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change."
+./po/is.po:3749:msgid "No tuner is configured for use with a diseqc positioner!"
+./po/is.po:3792:"Please verify that you have attached a network cable and your network is configured correctly."
+./po/is.po:3800:"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+./po/is.po:6374:"This test checks for configured nameservers.\n"
+./po/is.po:6377:"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+./po/is.po:6415:" - then your LAN adapter is configured for manual IP setup\n"
+./po/is.po:6418:"-verify that you have a configured and working DHCP server in your network."
+./po/is.po:6429:msgid "This test detects your configured LAN adapter."
+./po/is.po:8294:msgid "not configured"
+./po/is.po:8922:#~ "Delete no more configured satellite\n"
+./po/is.po:9314:#~ "The input port should be configured now.\n"
+./po/fi.po:481:"A second configured interface has been found.\n"
+./po/fi.po:573:msgid "Activate the configured network settings."
+./po/fi.po:1471:msgid "Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change."
+./po/fi.po:3762:msgid "No tuner is configured for use with a diseqc positioner!"
+./po/fi.po:3807:"Please verify that you have attached a network cable and your network is configured correctly."
+./po/fi.po:3815:"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+./po/fi.po:6277:"This test checks for configured nameservers.\n"
+./po/fi.po:6280:"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+./po/fi.po:6315:" - then your LAN adapter is configured for manual IP setup\n"
+./po/fi.po:6318:"-verify that you have a configured and working DHCP server in your network."
+./po/fi.po:6328:msgid "This test detects your configured LAN adapter."
+./po/fi.po:8200:msgid "not configured"
+./po/fi.po:8834:#~ "Delete no more configured satellite\n"
+./po/sr.po:496:"A second configured interface has been found.\n"
+./po/sr.po:590:msgid "Activate the configured network settings."
+./po/sr.po:1542:msgid "Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change."
+./po/sr.po:3996:msgid "No tuner is configured for use with a diseqc positioner!"
+./po/sr.po:4041:"Please verify that you have attached a network cable and your network is configured correctly."
+./po/sr.po:4049:"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+./po/sr.po:6677:"This test checks for configured nameservers.\n"
+./po/sr.po:6680:"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+./po/sr.po:6718:" - then your LAN adapter is configured for manual IP setup\n"
+./po/sr.po:6721:"-verify that you have a configured and working DHCP server in your network."
+./po/sr.po:6732:msgid "This test detects your configured LAN adapter."
+./po/sr.po:8628:msgid "not configured"
+./po/sr.po:9281:#~ "Delete no more configured satellite\n"
+./po/sr.po:9684:#~ "The input port should be configured now.\n"
+./po/lv.po:442:"A second configured interface has been found.\n"
+./po/lv.po:519:msgid "Activate the configured network settings."
+./po/lv.po:1271:msgid "Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change."
+./po/lv.po:3196:msgid "No tuner is configured for use with a diseqc positioner!"
+./po/lv.po:3235:"Please verify that you have attached a network cable and your network is configured correctly."
+./po/lv.po:3242:"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+./po/lv.po:5299:"This test checks for configured nameservers.\n"
+./po/lv.po:5302:"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+./po/lv.po:5334:" - then your LAN adapter is configured for manual IP setup\n"
+./po/lv.po:5337:"-verify that you have a configured and working DHCP server in your network."
+./po/lv.po:5346:msgid "This test detects your configured LAN adapter."
+./po/lv.po:6939:msgid "not configured"
+./po/lv.po:7429:#~ "Delete no more configured satellite\n"
+./po/nl.po:437:"A second configured interface has been found.\n"
+./po/nl.po:514:msgid "Activate the configured network settings."
+./po/nl.po:1274:msgid "Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change."
+./po/nl.po:3211:msgid "No tuner is configured for use with a diseqc positioner!"
+./po/nl.po:3250:"Please verify that you have attached a network cable and your network is configured correctly."
+./po/nl.po:3257:"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+./po/nl.po:5334:"This test checks for configured nameservers.\n"
+./po/nl.po:5337:"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+./po/nl.po:5369:" - then your LAN adapter is configured for manual IP setup\n"
+./po/nl.po:5372:"-verify that you have a configured and working DHCP server in your network."
+./po/nl.po:5381:msgid "This test detects your configured LAN adapter."
+./po/nl.po:6983:msgid "not configured"
+./po/nl.po:7555:#~ "Delete no more configured satellite\n"
+./po/sk.po:437:"A second configured interface has been found.\n"
+./po/sk.po:513:msgid "Activate the configured network settings."
+./po/sk.po:1313:msgid "Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change."
+./po/sk.po:3354:msgid "No tuner is configured for use with a diseqc positioner!"
+./po/sk.po:3394:"Please verify that you have attached a network cable and your network is configured correctly."
+./po/sk.po:3401:"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+./po/sk.po:5582:"This test checks for configured nameservers.\n"
+./po/sk.po:5585:"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+./po/sk.po:5620:" - then your LAN adapter is configured for manual IP setup\n"
+./po/sk.po:5623:"-verify that you have a configured and working DHCP server in your network."
+./po/sk.po:5633:msgid "This test detects your configured LAN adapter."
+./po/sk.po:7239:msgid "not configured"
+./po/sk.po:7760:#~ "Delete no more configured satellite\n"
+./po/sk.po:8054:#~ "The input port should be configured now.\n"
+./po/da.po:472:"A second configured interface has been found.\n"
+./po/da.po:564:msgid "Activate the configured network settings."
+./po/da.po:1520:msgid "Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change."
+./po/da.po:3977:msgid "No tuner is configured for use with a diseqc positioner!"
+./po/da.po:4021:"Please verify that you have attached a network cable and your network is configured correctly."
+./po/da.po:4029:"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+./po/da.po:6675:"This test checks for configured nameservers.\n"
+./po/da.po:6678:"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+./po/da.po:6716:" - then your LAN adapter is configured for manual IP setup\n"
+./po/da.po:6719:"-verify that you have a configured and working DHCP server in your network."
+./po/da.po:6730:msgid "This test detects your configured LAN adapter."
+./po/da.po:8637:msgid "not configured"
+./po/da.po:9307:#~ "Delete no more configured satellite\n"
+./po/da.po:9743:#~ "The input port should be configured now.\n"
+./po/de.po:432:"A second configured interface has been found.\n"
+./po/de.po:509:msgid "Activate the configured network settings."
+./po/de.po:1260:msgid "Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change."
+./po/de.po:3183:msgid "No tuner is configured for use with a diseqc positioner!"
+./po/de.po:3222:"Please verify that you have attached a network cable and your network is configured correctly."
+./po/de.po:3229:"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+./po/de.po:5284:"This test checks for configured nameservers.\n"
+./po/de.po:5287:"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+./po/de.po:5319:" - then your LAN adapter is configured for manual IP setup\n"
+./po/de.po:5322:"-verify that you have a configured and working DHCP server in your network."
+./po/de.po:5331:msgid "This test detects your configured LAN adapter."
+./po/de.po:6926:msgid "not configured"
+./po/hr.po:465:"A second configured interface has been found.\n"
+./po/hr.po:556:msgid "Activate the configured network settings."
+./po/hr.po:1467:msgid "Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change."
+./po/hr.po:3839:msgid "No tuner is configured for use with a diseqc positioner!"
+./po/hr.po:3882:"Please verify that you have attached a network cable and your network is configured correctly."
+./po/hr.po:3888:"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+./po/hr.po:6410:"This test checks for configured nameservers.\n"
+./po/hr.po:6413:"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+./po/hr.po:6433:" - then your LAN adapter is configured for manual IP setup\n"
+./po/hr.po:6436:"-verify that you have a configured and working DHCP server in your network."
+./po/hr.po:6439:msgid "This test detects your configured LAN adapter."
+./po/hr.po:8290:msgid "not configured"
+./po/sl.po:488:"A second configured interface has been found.\n"
+./po/sl.po:585:msgid "Activate the configured network settings."
+./po/sl.po:1499:msgid "Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change."
+./po/sl.po:3939:msgid "No tuner is configured for use with a diseqc positioner!"
+./po/sl.po:3982:"Please verify that you have attached a network cable and your network is configured correctly."
+./po/sl.po:3990:"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+./po/sl.po:6513:"This test checks for configured nameservers.\n"
+./po/sl.po:6516:"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+./po/sl.po:6551:" - then your LAN adapter is configured for manual IP setup\n"
+./po/sl.po:6554:"-verify that you have a configured and working DHCP server in your network."
+./po/sl.po:6564:msgid "This test detects your configured LAN adapter."
+./po/sl.po:8447:msgid "not configured"
+./po/ar.po:483:"A second configured interface has been found.\n"
+./po/ar.po:575:msgid "Activate the configured network settings."
+./po/ar.po:1436:msgid "Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change."
+./po/ar.po:3638:msgid "No tuner is configured for use with a diseqc positioner!"
+./po/ar.po:3675:"Please verify that you have attached a network cable and your network is configured correctly."
+./po/ar.po:3682:"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+./po/ar.po:6047:"This test checks for configured nameservers.\n"
+./po/ar.po:6050:"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+./po/ar.po:6084:" - then your LAN adapter is configured for manual IP setup\n"
+./po/ar.po:6087:"-verify that you have a configured and working DHCP server in your network."
+./po/ar.po:6091:msgid "This test detects your configured LAN adapter."
+./po/ar.po:7822:msgid "not configured"
+./po/ar.po:8381:#~ "Delete no more configured satellite\n"
+./po/ar.po:8636:#~ "The input port should be configured now.\n"
+./po/fa.po:421:"A second configured interface has been found.\n"
+./po/fa.po:499:msgid "Activate the configured network settings."
+./po/fa.po:1304:msgid "Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change."
+./po/fa.po:3372:msgid "No tuner is configured for use with a diseqc positioner!"
+./po/fa.po:3408:"Please verify that you have attached a network cable and your network is configured correctly."
+./po/fa.po:3414:"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+./po/fa.po:5605:"This test checks for configured nameservers.\n"
+./po/fa.po:5608:"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+./po/fa.po:5628:" - then your LAN adapter is configured for manual IP setup\n"
+./po/fa.po:5631:"-verify that you have a configured and working DHCP server in your network."
+./po/fa.po:5634:msgid "This test detects your configured LAN adapter."
+./po/fa.po:7189:msgid "not configured"
+./po/fa.po:7740:#~ "Delete no more configured satellite\n"
+./po/bg.po:841:"Delete no more configured satellite\n"
+./po/bg.po:1797:msgid "No tuner is configured for use with a diseqc positioner!"
+./po/bg.po:1834:"configured correctly."
+./po/bg.po:1843:"network is configured correctly."
+./po/bg.po:3040:"The input port should be configured now.\n"
+./po/bg.po:3178:"This test checks for configured Nameservers.\n"
+./po/bg.po:3181:"- if you configured your Nameservers manually please verify your entries in "
+./po/bg.po:3216:" - then your LAN Adapter is configured for manual IP Setup\n"
+./po/bg.po:3220:"-verify that you have a configured and working DHCP Server in your network."
+./po/bg.po:3231:msgid "This test detects your configured LAN-Adapter."
+./po/bg.po:3896:"A second configured interface has been found.\n"
+./po/pt_BR.po:437:"A second configured interface has been found.\n"
+./po/pt_BR.po:514:msgid "Activate the configured network settings."
+./po/pt_BR.po:1263:msgid "Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change."
+./po/pt_BR.po:3185:msgid "No tuner is configured for use with a diseqc positioner!"
+./po/pt_BR.po:3224:"Please verify that you have attached a network cable and your network is configured correctly."
+./po/pt_BR.po:3231:"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+./po/pt_BR.po:5286:"This test checks for configured nameservers.\n"
+./po/pt_BR.po:5289:"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+./po/pt_BR.po:5321:" - then your LAN adapter is configured for manual IP setup\n"
+./po/pt_BR.po:5324:"-verify that you have a configured and working DHCP server in your network."
+./po/pt_BR.po:5333:msgid "This test detects your configured LAN adapter."
+./po/pt_BR.po:6927:msgid "not configured"
+./po/pt_BR.po:7480:#~ "Delete no more configured satellite\n"
+./po/pt_BR.po:7790:#~ "The input port should be configured now.\n"
+./po/uk.po:485:"A second configured interface has been found.\n"
+./po/uk.po:576:msgid "Activate the configured network settings."
+./po/uk.po:1518:msgid "Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change."
+./po/uk.po:3964:msgid "No tuner is configured for use with a diseqc positioner!"
+./po/uk.po:4009:"Please verify that you have attached a network cable and your network is configured correctly."
+./po/uk.po:4017:"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+./po/uk.po:6612:"This test checks for configured nameservers.\n"
+./po/uk.po:6615:"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+./po/uk.po:6653:" - then your LAN adapter is configured for manual IP setup\n"
+./po/uk.po:6656:"-verify that you have a configured and working DHCP server in your network."
+./po/uk.po:6667:msgid "This test detects your configured LAN adapter."
+./po/uk.po:8554:msgid "not configured"
+./po/uk.po:9170:#~ "Delete no more configured satellite\n"
+./po/uk.po:9537:#~ "The input port should be configured now.\n"
+./po/tr.po:475:"A second configured interface has been found.\n"
+./po/tr.po:567:msgid "Activate the configured network settings."
+./po/tr.po:1515:msgid "Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change."
+./po/tr.po:3958:msgid "No tuner is configured for use with a diseqc positioner!"
+./po/tr.po:4003:"Please verify that you have attached a network cable and your network is configured correctly."
+./po/tr.po:4011:"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+./po/tr.po:6618:"This test checks for configured nameservers.\n"
+./po/tr.po:6621:"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+./po/tr.po:6659:" - then your LAN adapter is configured for manual IP setup\n"
+./po/tr.po:6662:"-verify that you have a configured and working DHCP server in your network."
+./po/tr.po:6673:msgid "This test detects your configured LAN adapter."
+./po/tr.po:8558:msgid "not configured"
+./po/tr.po:9208:#~ "Delete no more configured satellite\n"
+./po/tr.po:9609:#~ "The input port should be configured now.\n"
+./po/es.po:488:"A second configured interface has been found.\n"
+./po/es.po:581:msgid "Activate the configured network settings."
+./po/es.po:1529:msgid "Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change."
+./po/es.po:3975:msgid "No tuner is configured for use with a diseqc positioner!"
+./po/es.po:4020:"Please verify that you have attached a network cable and your network is configured correctly."
+./po/es.po:4028:"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+./po/es.po:6642:"This test checks for configured nameservers.\n"
+./po/es.po:6645:"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+./po/es.po:6683:" - then your LAN adapter is configured for manual IP setup\n"
+./po/es.po:6686:"-verify that you have a configured and working DHCP server in your network."
+./po/es.po:6695:msgid "This test detects your configured LAN adapter."
+./po/es.po:8582:msgid "not configured"
+./po/es.po:9233:#~ "Delete no more configured satellite\n"
+./po/es.po:9637:#~ "The input port should be configured now.\n"
+./po/no.po:481:"A second configured interface has been found.\n"
+./po/no.po:578:msgid "Activate the configured network settings."
+./po/no.po:1468:msgid "Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change."
+./po/no.po:3791:msgid "No tuner is configured for use with a diseqc positioner!"
+./po/no.po:3834:"Please verify that you have attached a network cable and your network is configured correctly."
+./po/no.po:3842:"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+./po/no.po:6317:"This test checks for configured nameservers.\n"
+./po/no.po:6320:"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+./po/no.po:6355:" - then your LAN adapter is configured for manual IP setup\n"
+./po/no.po:6358:"-verify that you have a configured and working DHCP server in your network."
+./po/no.po:6368:msgid "This test detects your configured LAN adapter."
+./po/no.po:8247:msgid "not configured"
+./po/et.po:432:"A second configured interface has been found.\n"
+./po/et.po:509:msgid "Activate the configured network settings."
+./po/et.po:1259:msgid "Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change."
+./po/et.po:3183:msgid "No tuner is configured for use with a diseqc positioner!"
+./po/et.po:3222:"Please verify that you have attached a network cable and your network is configured correctly."
+./po/et.po:3229:"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+./po/et.po:5284:"This test checks for configured nameservers.\n"
+./po/et.po:5287:"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+./po/et.po:5319:" - then your LAN adapter is configured for manual IP setup\n"
+./po/et.po:5322:"-verify that you have a configured and working DHCP server in your network."
+./po/et.po:5331:msgid "This test detects your configured LAN adapter."
+./po/et.po:6924:msgid "not configured"
+./po/et.po:7453:#~ "Delete no more configured satellite\n"
+./po/et.po:7767:#~ "The input port should be configured now.\n"
+./po/fy.po:472:"A second configured interface has been found.\n"
+./po/fy.po:563:msgid "Activate the configured network settings."
+./po/fy.po:1492:msgid "Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change."
+./po/fy.po:3912:msgid "No tuner is configured for use with a diseqc positioner!"
+./po/fy.po:3955:"Please verify that you have attached a network cable and your network is configured correctly."
+./po/fy.po:3963:"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+./po/fy.po:6544:"This test checks for configured nameservers.\n"
+./po/fy.po:6547:"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+./po/fy.po:6585:" - then your LAN adapter is configured for manual IP setup\n"
+./po/fy.po:6588:"-verify that you have a configured and working DHCP server in your network."
+./po/fy.po:6599:msgid "This test detects your configured LAN adapter."
+./po/fy.po:8474:msgid "not configured"
+./po/fy.po:9018:#~ "Delete no more configured satellite\n"
+./po/fy.po:9253:#~ "The input port should be configured now.\n"
+./po/lt.po:419:"A second configured interface has been found.\n"
+./po/lt.po:496:msgid "Activate the configured network settings."
+./po/lt.po:1296:msgid "Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change."
+./po/lt.po:3338:msgid "No tuner is configured for use with a diseqc positioner!"
+./po/lt.po:3380:"Please verify that you have attached a network cable and your network is configured correctly."
+./po/lt.po:3387:"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+./po/lt.po:5571:"This test checks for configured nameservers.\n"
+./po/lt.po:5574:"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+./po/lt.po:5609:" - then your LAN adapter is configured for manual IP setup\n"
+./po/lt.po:5612:"-verify that you have a configured and working DHCP server in your network."
+./po/lt.po:5622:msgid "This test detects your configured LAN adapter."
+./po/lt.po:7227:msgid "not configured"
+./po/lt.po:7761:#~ "Delete no more configured satellite\n"
+./po/lt.po:8080:#~ "The input port should be configured now.\n"
+./po/ca.po:468:"A second configured interface has been found.\n"
+./po/ca.po:559:msgid "Activate the configured network settings."
+./po/ca.po:1463:msgid "Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change."
+./po/ca.po:3827:msgid "No tuner is configured for use with a diseqc positioner!"
+./po/ca.po:3870:"Please verify that you have attached a network cable and your network is configured correctly."
+./po/ca.po:3876:"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+./po/ca.po:6390:"This test checks for configured nameservers.\n"
+./po/ca.po:6393:"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+./po/ca.po:6413:" - then your LAN adapter is configured for manual IP setup\n"
+./po/ca.po:6416:"-verify that you have a configured and working DHCP server in your network."
+./po/ca.po:6419:msgid "This test detects your configured LAN adapter."
+./po/ca.po:8261:msgid "not configured"
+./po/cs.po:509:"A second configured interface has been found.\n"
+./po/cs.po:602:msgid "Activate the configured network settings."
+./po/cs.po:1517:msgid "Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change."
+./po/cs.po:3883:msgid "No tuner is configured for use with a diseqc positioner!"
+./po/cs.po:3927:"Please verify that you have attached a network cable and your network is configured correctly."
+./po/cs.po:3935:"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+./po/cs.po:6453:"This test checks for configured nameservers.\n"
+./po/cs.po:6456:"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+./po/cs.po:6491:" - then your LAN adapter is configured for manual IP setup\n"
+./po/cs.po:6494:"-verify that you have a configured and working DHCP server in your network."
+./po/cs.po:6504:msgid "This test detects your configured LAN adapter."
+./po/cs.po:8402:msgid "not configured"

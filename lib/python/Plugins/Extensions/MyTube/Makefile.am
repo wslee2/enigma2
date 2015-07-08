@@ -1,0 +1,8 @@
+installdir = $(pkglibdir)/python/Plugins/Extensions/MyTube
+
+SUBDIRS = img locale skins
+
+install_PYTHON = \
+				MyTubeSearch.pyo __init__.pyo MyTubeService.pyo plugin.pyo skinsmytube.pyo ThreadQueue.pyo
+
+install_DATA = mytube.dic maintainer.info LICENSE plugin.png starsbar_empty.png suggestions_bg.png list_bg.png mytubemain_bg.png starsbar_filled.png

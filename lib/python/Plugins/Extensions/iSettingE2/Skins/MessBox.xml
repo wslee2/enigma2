@@ -1,0 +1,34 @@
+<screen name="MyMessageBox" position="0,0" size="1280,720" title="iSettingE2: Message" flags="wfNoBorder">
+		<ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Buttons/fr_mainX.png" />
+		<ePixmap position="35,30" zPosition="1" size="1222,122" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Buttons/fr_bar.png" alphatest="blend" transparent="1" />                       
+		<widget source="Title" render="Label" zPosition="2" position="60,45" size="900,40" foregroundColor="#00ddebe8" backgroundColor="#00000000" halign="left" font="RegularIE2; 24" transparent="1" />
+		<ePixmap position="873,175" size="301,124" zPosition="4" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Buttons/smflogo.png" alphatest="blend" transparent="1" /> 
+		<!-- Dete/Time -->
+		<widget source="global.CurrentTime" render="Label" position="810,76" size="310,30" font="RegularIE2;20" halign="left" foregroundColor="#00ddebe8" backgroundColor="#00000000" transparent="1" zPosition="2" noWrap="1">
+		   <convert type="ClockToText">Format:%A %d %B %Y</convert>
+		</widget>
+		<widget source="global.CurrentTime" render="Label" position="1090,76" size="125,30" font="RegularIE2;20" halign="right" foregroundColor="#00ddebe8" backgroundColor="#00000000" transparent="1" zPosition="2">
+		   <convert type="ClockToText">Format:%H:%M:%S</convert>
+		</widget>
+		<!-- Widget Pig -->
+		<widget source="session.VideoPicture" render="Pig" position="829,137" size="388,224" zPosition="1" backgroundColor="#df0b1300" />
+		<!-- Nome Canale - Service Name -->
+		<widget source="session.CurrentService" render="Label" position="823,368" size="400,30" zPosition="2" font="RegularIE2;22" halign="center" transparent="1" foregroundColor="#00308bff" backgroundColor="#00000000" valign="center">       
+		   <convert type="ServiceName">Name</convert>
+		</widget>
+		<!-- Progres Bar -->
+		<widget name="iprogress_blu" position="133,556" zPosition="2" size="560,20" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Buttons/progress_big_blue.png" borderWidth="1" borderColor="#00cccccc" transparent="1" />
+		<widget source="session.Event_Now" render="Progress" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Buttons/tv_b_bar.png" size="390,2" position="827,365" zPosition="5" backgroundColor="#00000000" transparent="1">
+		   <convert type="EventTime">Progress</convert>
+		</widget>
+		<widget name="text" position="73,160" size="680,480" font="RegularIE2;20" zPosition="0" halign="center" valign="top" transparent="1" />
+		<widget name="ErrorPixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Icons/input_error_128px.png" position="952,448" size="128,128" alphatest="on" />
+		<widget name="QuestionPixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Icons/input_question_128px.png" position="952,448" size="128,128" alphatest="on" />
+		<widget name="DttScanPixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Icons/input_question_128px.png" position="952,448" size="128,128" alphatest="on" />
+		<widget name="DttScan2Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Icons/input_question_128px.png" position="952,448" size="128,128" alphatest="on" />
+		<widget name="InfoPixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Icons/input_info_128px.png" position="952,448" size="128,128" alphatest="on" />
+		<widget name="WaitPixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Icons/input_wait_128px.png" position="952,448" size="128,128" alphatest="on" />
+		<widget name="WarningPixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Icons/input_esc_yellow_128px.png" position="952,448" size="128,128" alphatest="on" />
+		<widget name="WarningRedPixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Icons/input_esc_red_128px.png" position="952,448" size="128,128" alphatest="on" />                        
+		<widget name="list" position="73,290" size="680,200" transparent="1" />                 
+</screen>

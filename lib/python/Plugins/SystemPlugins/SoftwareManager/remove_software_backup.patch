@@ -1,0 +1,18 @@
+diff --git a/lib/python/Plugins/SystemPlugins/SoftwareManager/plugin.py b/lib/python/Plugins/SystemPlugins/SoftwareManager/plugin.py
+index a072764..a6e17f9 100755
+--- a/lib/python/Plugins/SystemPlugins/SoftwareManager/plugin.py
++++ b/lib/python/Plugins/SystemPlugins/SoftwareManager/plugin.py
+@@ -136,11 +136,11 @@ class UpdatePluginMenu(Screen):
+ 			self.list.append(("install-extensions", _("Manage extensions"), _("\nManage extensions or plugins for your receiver" ) + self.oktext, None))
+ # iq - [
+ #			self.list.append(("software-update", _("Software update"), _("\nOnline update of your receiver software." ) + self.oktext, None))
+-			self.list.append(("image-backup", _("Image backup"), _("\nBackup your receiver image.." ) + self.oktext, None))
++#			self.list.append(("image-backup", _("Image backup"), _("\nBackup your receiver image.." ) + self.oktext, None))
+ 			self.list.append(("image-restore", _("Image restore"), _("\nRestore your receiver image.." ) + self.oktext, None))
+ #			self.list.append(("software-restore", _("Software restore"), _("\nRestore your receiver with a new firmware." ) + self.oktext, None))
+ # ]
+-			self.list.append(("system-backup", _("Backup system settings"), _("\nBackup your receiver settings." ) + self.oktext + "\n\n" + self.infotext, None))
++#			self.list.append(("system-backup", _("Backup system settings"), _("\nBackup your receiver settings." ) + self.oktext + "\n\n" + self.infotext, None))
+ 			self.list.append(("system-restore",_("Restore system settings"), _("\nRestore your receiver settings." ) + self.oktext, None))
+ 			self.list.append(("ipkg-install", _("Install local extension"),  _("\nScan for local extensions and install them." ) + self.oktext, None))
+ 			for p in plugins.getPlugins(PluginDescriptor.WHERE_SOFTWAREMANAGER):

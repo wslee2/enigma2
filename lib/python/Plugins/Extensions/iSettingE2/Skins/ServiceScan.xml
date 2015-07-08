@@ -1,0 +1,48 @@
+<screen name="ServiceScanMod" position="0,0" size="1280,720" title="iSettingE2: Service Scan" flags="wfNoBorder">
+  <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Buttons/fr_mainX.png" />
+  <ePixmap position="35,30" zPosition="1" size="1222,122" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Buttons/fr_bar.png" alphatest="blend" transparent="1" />
+  <widget source="Title" render="Label" zPosition="2" position="60,45" size="700,40" foregroundColor="#00ddebe8" backgroundColor="#00000000" halign="left" font="RegularIE2; 24" transparent="1" />
+  <ePixmap position="873,175" size="301,124" zPosition="4" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Buttons/smflogo.png" alphatest="blend" transparent="1" />
+  <!-- <ePixmap position="950,440" zPosition="5" size="146,146" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Buttons/ico_sat.png" alphatest="blend" transparent="1" /> -->
+  <!-- DataSettings -->
+  <widget name="DescTv" position="830,403" zPosition="1" size="90,30" font="RegularIE2; 20" halign="left" foregroundColor="#00ddebe8" backgroundColor="#00000000" transparent="1" valign="center" />
+  <widget name="DescRadio" position="830,446" zPosition="1" size="90,30" font="RegularIE2; 20" valign="center" halign="left" foregroundColor="#00ddebe8" backgroundColor="#00000000" transparent="1" />
+  <widget name="DescDati" position="830,490" zPosition="1" size="90,30" font="RegularIE2; 20" halign="left" foregroundColor="#00ddebe8" backgroundColor="#00000000" transparent="1" valign="center" />
+  <widget name="NumTv" position="920,404" zPosition="1" size="100,30" font="RegularIE2;19" valign="center" halign="left" foregroundColor="#001f6cff" backgroundColor="#00000000" transparent="1" />
+  <widget name="NumRadio" position="921,447" zPosition="1" size="100,30" font="RegularIE2;19" valign="center" halign="left" foregroundColor="#001f6cff" backgroundColor="#00000000" transparent="1" />
+  <widget name="NumDati" position="921,491" zPosition="1" size="100,30" font="RegularIE2;19" valign="center" halign="left" foregroundColor="#001f6cff" backgroundColor="#00000000" transparent="1" />
+  <!-- Widget Pig -->
+  <widget source="session.VideoPicture" render="Pig" position="829,137" size="388,224" zPosition="1" backgroundColor="#df0b1300" />
+  <!-- Dete/Time -->
+  <widget source="global.CurrentTime" render="Label" position="810,76" size="310,30" font="RegularIE2;20" halign="left" foregroundColor="#00ddebe8" backgroundColor="#00000000" transparent="1" zPosition="2" noWrap="1">
+    <convert type="ClockToText">Format:%A %d %B %Y</convert>
+  </widget>
+  <widget source="global.CurrentTime" render="Label" position="1090,76" size="125,30" font="RegularIE2;20" halign="right" foregroundColor="#00ddebe8" backgroundColor="#00000000" transparent="1" zPosition="2">
+    <convert type="ClockToText">Format:%H:%M:%S</convert>
+  </widget>
+  <!-- Nome Canale - Service Name -->
+  <widget source="session.CurrentService" render="Label" position="823,368" size="400,30" zPosition="2" font="RegularIE2;22" halign="center" transparent="1" foregroundColor="#00308bff" backgroundColor="#00000000" valign="center">
+    <convert type="ServiceName">Name</convert>
+  </widget>
+  <widget source="FrontendInfo" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Icons/sat.png" position="975,473" size="140,80" transparent="1" alphatest="blend">
+    <convert type="FrontendInfo">TYPE</convert>
+    <convert type="ValueRange">0,0</convert>
+    <convert type="ConditionalShowHide" />
+  </widget>
+  <widget source="FrontendInfo" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Icons/cable.png" position="990,473" size="80,80" transparent="1" alphatest="blend">
+    <convert type="FrontendInfo">TYPE</convert>
+    <convert type="ValueRange">1,1</convert>
+    <convert type="ConditionalShowHide" />
+  </widget>
+  <widget source="FrontendInfo" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Icons/dtt.png" position="990,473" size="80,80" transparent="1" alphatest="blend">
+    <convert type="FrontendInfo">TYPE</convert>
+    <convert type="ValueRange">2,2</convert>
+    <convert type="ConditionalShowHide" />
+  </widget>
+  <widget name="network" position="150,110" size="430,25" font="RegularIE2;22" transparent="1" />
+  <widget name="transponder" position="150,140" size="430,25" font="RegularIE2;22" transparent="1" />
+  <widget name="scan_state" position="140,195" size="560,25" zPosition="2" font="RegularIE2;22" transparent="1" />
+  <widget name="pass" position="140,195" size="560,25" font="RegularIE2;22" transparent="1" />
+  <widget name="scan_progress" position="140,230" size="560,20" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Buttons/progress_big_blue.png" borderWidth="1" borderColor="#00cccccc" />
+  <widget name="servicelist" position="140,270" size="560,350" selectionDisabled="1" foregroundColor="#00ddebe8" transparent="1" />
+</screen>

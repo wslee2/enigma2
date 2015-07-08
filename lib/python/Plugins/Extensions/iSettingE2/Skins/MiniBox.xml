@@ -1,0 +1,12 @@
+<screen name="MiniBox" position="648,18" zPosition="100" title="iSettingE2: Message Update" size="600,70" flags="wfNoBorder">         
+         <ePixmap position="0,0" zPosition="-1" size="600,70" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Buttons/background.png" />         
+         <widget name="text" position="70,10" size="520,50" font="RegularIE2;20" zPosition="0" halign="center" valign="center" backgroundColor="#00000000" transparent="1" />
+         <widget name="SettingPixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Icons/DownloadSetting.png" position="8,9" size="54,54" alphatest="on" />
+         <widget name="PluginPixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Icons/DownloadPlugin.png" position="8,9" size="54,54" alphatest="on" />
+         <widget name="ErrorNetworkPixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Icons/network_error.png" position="8,9" size="54,54" alphatest="on" />
+         <widget name="ErrorSettingPixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Icons/input_error.png" position="8,9" size="54,54" alphatest="on" />
+         <widget name="ErrorPluginPixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Icons/input_error.png" position="8,9" size="54,54" alphatest="on" />
+         <widget name="SettingOKPixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Icons/input_info.png" position="8,9" size="54,54" alphatest="on" />
+         <widget name="PluginOKPixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Icons/input_info.png" position="8,9" size="54,54" alphatest="on" />
+         <widget name="iprogress_red" position="70,60" size="520,5" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Buttons/mini_progress_red.png" borderWidth="0" borderColor="#00cccccc" transparent="1" />
+</screen>

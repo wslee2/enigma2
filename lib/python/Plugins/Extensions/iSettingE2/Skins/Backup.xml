@@ -1,0 +1,33 @@
+<screen name="BackupAutosetting" flags="wfNoBorder" position="0,0" size="1280,720" title="iSettingE2: Backup and Restore">
+  <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Buttons/fr_mainX.png" />
+  <ePixmap position="35,30" zPosition="1" size="1222,122" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Buttons/fr_bar.png" alphatest="blend" transparent="1" />
+  <ePixmap position="57,645" zPosition="1" size="780,36" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Buttons/colorbar.png" alphatest="blend" transparent="1" />
+  <widget source="Title" render="Label" zPosition="2" position="60,45" size="700,40" foregroundColor="#00ddebe8" backgroundColor="#00000000" halign="left" font="RegularIE2; 24" transparent="1" />
+  <ePixmap position="774,114" zPosition="4" size="29,490" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Buttons/maxbar.png" alphatest="blend" transparent="1" />
+  <ePixmap position="774,603" zPosition="4" size="29,40" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Buttons/endbar.png" alphatest="blend" transparent="1" />
+  <ePixmap position="873,175" size="301,124" zPosition="4" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Buttons/smflogo.png" alphatest="blend" transparent="1" />
+  <!-- Dete/Time -->
+  <widget source="global.CurrentTime" render="Label" position="810,76" size="310,30" font="RegularIE2;20" halign="left" foregroundColor="#00ddebe8" backgroundColor="#00000000" transparent="1" zPosition="2" noWrap="1">
+    <convert type="ClockToText">Format:%A %d %B %Y</convert>
+  </widget>
+  <widget source="global.CurrentTime" render="Label" position="1090,76" size="125,30" font="RegularIE2;20" halign="right" foregroundColor="#00ddebe8" backgroundColor="#00000000" transparent="1" zPosition="2">
+    <convert type="ClockToText">Format:%H:%M:%S</convert>
+  </widget>  
+  <widget name="list" position="60,115" size="740,500" itemHeight="25" foregroundColor="#00ddebe8" zPosition="1" scrollbarMode="showAlways" transparent="1" />
+  <widget name="text" position="60,115" size="740,500" zPosition="1" font="RegularIE2;20" halign="center" foregroundColor="#00ddebe8" backgroundColor="#00000000" transparent="1" />
+  <widget name="red1" position="856,412" zPosition="1" size="330,180" font="RegularIE2;19" valign="top" halign="center" foregroundColor="#001f6cff" transparent="1" />
+  <widget name="key_red" position="40,649" zPosition="1" size="190,25" font="RegularIE2;20" halign="center" foregroundColor="#00ddebe8" backgroundColor="#00000000" transparent="1" />
+  <widget name="key_green" position="238,649" zPosition="1" size="190,25" font="RegularIE2;20" halign="center" foregroundColor="#00ddebe8" backgroundColor="#00000000" transparent="1" />
+  <widget name="key_yallow" position="435,649" zPosition="1" size="190,25" font="RegularIE2;20" halign="center" foregroundColor="#00ddebe8" backgroundColor="#00000000" transparent="1" />
+  <widget name="key_blue" position="635,649" zPosition="1" size="190,25" font="RegularIE2;20" halign="center" foregroundColor="#00ddebe8" backgroundColor="#00000000" transparent="1" />
+  <!-- Widget Pig -->
+  <widget source="session.VideoPicture" render="Pig" position="829,137" size="388,224" zPosition="1" backgroundColor="#df0b1300" />
+  <!-- Nome Canale - Service Name -->
+  <widget source="session.CurrentService" render="Label" position="823,368" size="400,30" zPosition="2" font="RegularIE2;22" halign="center" transparent="1" foregroundColor="#00308bff" backgroundColor="#00000000" valign="center">
+    <convert type="ServiceName">Name</convert>
+  </widget>
+  <!-- Progres Bar -->
+  <widget source="session.Event_Now" render="Progress" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Buttons/tv_b_bar.png" size="390,2" position="827,365" zPosition="5" backgroundColor="#00000000" transparent="1">
+    <convert type="EventTime">Progress</convert>
+  </widget>
+</screen>

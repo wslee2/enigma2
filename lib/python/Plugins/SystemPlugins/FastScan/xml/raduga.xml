@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<platform>
+      <transporder orbpos="750" frequency="11545" symbolrate="43200" fec="7/8" pol="V" system="DVBS2" modulation="8PSK"/>
+      <transporder orbpos="750" frequency="11605" symbolrate="43200" fec="7/8" pol="V" system="DVBS" modulation="8PSK"/>
+	  <transporder orbpos="750" frequency="12521" symbolrate="22000" fec="5/6" pol="V" system="DVBS" modulation="8PSK"/>
+	  <transporder orbpos="750" frequency="12595" symbolrate="43200" fec="7/8" pol="V" system="DVBS2" modulation="8PSK"/>
+      <transporder orbpos="750" frequency="12655" symbolrate="43200" fec="7/8" pol="V" system="DVBS" modulation="8PSK"/>
+	  <transporder orbpos="750" frequency="12715" symbolrate="43200" fec="7/8" pol="V" system="DVBS" modulation="8PSK"/>
+</platform> 

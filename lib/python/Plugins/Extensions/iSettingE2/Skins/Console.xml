@@ -1,0 +1,38 @@
+<screen name="ConsoleMod" position="0,0" size="1280,720" title="iSettingE2: Command Execution" flags="wfNoBorder">
+  <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Buttons/fr_mainX.png" />
+  <ePixmap position="35,30" zPosition="1" size="1222,122" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Buttons/fr_bar.png" alphatest="blend" transparent="1" />
+  <ePixmap position="1014,469" zPosition="1" size="150,142" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Buttons/ico_telnet.png" alphatest="blend" transparent="1" />
+  <ePixmap position="764,175" zPosition="4" size="29,440" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Buttons/maxbar.png" alphatest="blend" transparent="1" />
+  <ePixmap position="765,602" zPosition="4" size="29,40" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Buttons/endbar.png" alphatest="blend" transparent="1" />
+  <widget source="Title" render="Label" zPosition="2" position="60,45" size="700,40" foregroundColor="#00ddebe8" backgroundColor="#00000000" halign="left" font="RegularIE2; 24" transparent="1" />
+  <widget name="text" position="70,175" size="720,440" font="RegularIE2;20" transparent="1" foregroundColor="#00ffffff" backgroundColor="#00000000" />
+  <widget name="InfoProcess" position="70,135" size="720,30" font="RegularIE2;20" transparent="1" foregroundColor="#00ffffff" backgroundColor="#00000000" />
+  <ePixmap position="873,175" size="301,124" zPosition="4" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Buttons/smflogo.png" alphatest="blend" transparent="1" />
+  <!-- DataSettings -->
+  <widget name="DescTuner" position="830,403" zPosition="1" size="90,30" font="RegularIE2; 20" halign="left" foregroundColor="#00ddebe8" backgroundColor="#00000000" transparent="1" valign="center" noWrap="1" />
+  <widget name="DescFrontend" position="830,446" zPosition="1" size="130,30" font="RegularIE2; 20" valign="center" halign="left" foregroundColor="#00ddebe8" backgroundColor="#00000000" transparent="1" noWrap="1" />
+  <widget name="DescAdapter" position="830,490" zPosition="1" size="110,30" font="RegularIE2; 20" halign="left" foregroundColor="#00ddebe8" backgroundColor="#00000000" transparent="1" valign="center" noWrap="1" />
+  <widget name="NumTuner" position="920,403" zPosition="1" size="300,30" font="RegularIE2; 20" valign="center" halign="left" foregroundColor="#001f6cff" backgroundColor="#00000000" transparent="1" />
+  <widget name="NumFrontend" position="960,446" zPosition="1" size="50,30" font="RegularIE2; 20" valign="center" halign="left" foregroundColor="#001f6cff" backgroundColor="#00000000" transparent="1" />
+  <widget name="NumAdapter" position="940,490" zPosition="1" size="50,30" font="RegularIE2; 20" valign="center" halign="left" foregroundColor="#001f6cff" backgroundColor="#00000000" transparent="1" />
+  <!-- Description -->
+  <ePixmap position="57,645" zPosition="1" size="780,36" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Buttons/colorbar.png" alphatest="blend" transparent="1" />
+  <!-- Widget Pig -->
+  <widget source="session.VideoPicture" render="Pig" position="829,137" size="388,224" zPosition="1" backgroundColor="#df0b1300" />
+  <!-- Nome Canale - Service Name -->
+  <!--<widget source="session.CurrentService" render="Label" position="823,368" size="400,30" zPosition="2" font="RegularIE2;22" halign="center" transparent="1" foregroundColor="#00308bff" backgroundColor="#00000000" valign="center">
+    <convert type="ServiceName">Name</convert>
+  </widget>-->
+  <!-- Keys -->
+  <widget name="Key_Red" position="38,649" zPosition="1" size="190,25" font="RegularIE2;20" halign="center" foregroundColor="#00ddebe8" backgroundColor="#00000000" transparent="1" />
+  <widget name="Key_Yellow" position="435,649" zPosition="1" size="190,25" font="RegularIE2;20" halign="center" foregroundColor="#00ddebe8" backgroundColor="#00000000" transparent="1" />
+  <!-- Dete/Time -->
+  <widget source="global.CurrentTime" render="Label" position="810,76" size="310,30" font="RegularIE2;20" halign="left" foregroundColor="#00ddebe8" backgroundColor="#00000000" transparent="1" zPosition="2" noWrap="1">
+    <convert type="ClockToText">Format:%A %d %B %Y</convert>
+  </widget>
+  <widget source="global.CurrentTime" render="Label" position="1090,76" size="125,30" font="RegularIE2;20" halign="right" foregroundColor="#00ddebe8" backgroundColor="#00000000" transparent="1" zPosition="2">
+    <convert type="ClockToText">Format:%H:%M:%S</convert>
+  </widget>
+  <widget name="iprogress_red" position="70,100" zPosition="1" size="560,20" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Buttons/progress_big_red.png" borderWidth="1" borderColor="#00cccccc" transparent="1" />
+  <widget name="iprogress_blu" position="70,100" zPosition="2" size="560,20" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/iSettingE2/Buttons/progress_big_blue.png" borderWidth="1" borderColor="#00cccccc" transparent="1" />
+</screen>
